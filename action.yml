@@ -67,6 +67,10 @@ inputs:
     description: Enable adding a note to the release
     required: false
     default: ""
+	detached:
+    description: Enable detached mode
+    required: false
+    default: true
 outputs:
   release_id:
     description: ID of the release built
